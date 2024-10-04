@@ -3,17 +3,24 @@
     border: color(#2C3341); height: 20; width: 20; align-self: left; 
     border-style: solid;
     text-align: center;
-    width: 90%;
+    width: 65%;
 }
 
-.List {
+.Lista {
     position: relative;
-    width: 44.5%;
+    width: 32.5%;
     height: 100%;
     padding: -25%;
     border: 3px solid #335696; border-radius: 4px;
     display: inline-block;}
-    
+
+.Listb {
+    position: relative;
+    width: 32.5%;
+    height: 100%;
+    border: 3px solid #335696; border-radius: 4px;
+    display: inline-block
+}
 
 h3 {
     text-align: center;
@@ -41,3 +48,14 @@ h1 {
     margin-left: -90%;
     padding-left: 0%;
     }
+
+ #canned {
+     width:33%;
+     padding: -25%;
+    
+    }
+#images {
+    float: right;
+    display: inline-flexbox;
+    align-items: flex-end;
+}
